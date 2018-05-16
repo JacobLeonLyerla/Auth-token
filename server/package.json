@@ -5,6 +5,9 @@
   "repository": "https://github.com/JacobLeonLyerla/Auth-token.git",
   "author": "Jacob Leon Lyerla <umasour@yahoo.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
   "dependencies": {
     "bcrypt": "^2.0.1",
     "cors": "^2.8.4",
