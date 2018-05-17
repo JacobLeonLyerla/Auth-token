@@ -1,3 +1,4 @@
+
 const express = require('express');
 
 const db = require('./_config/db');
@@ -16,4 +17,4 @@ db
 setupMiddleware(server);
 setupRoutes(server);
 
-server.listen(5000, () => console.log('\n=== API running on port 5000 ===\n'));
+server.listen(5000, () => console.log('\n=== API running on port 5500 ===\n'));
